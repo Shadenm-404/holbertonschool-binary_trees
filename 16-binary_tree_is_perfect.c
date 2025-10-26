@@ -27,7 +27,8 @@ static int bt_depth_first_leaf(const binary_tree_t *tree)
  *
  * Return: 1 if perfect, 0 otherwise
  */
-static int bt_is_perfect_helper(const binary_tree_t *tree, int depth, int level)
+static int bt_is_perfect_helper(const binary_tree_t *tree,
+				int depth, int level)
 {
 	if (tree == NULL)
 		return (1);
